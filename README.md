@@ -1,4 +1,4 @@
-This mod adds powerfull endgame tools, armor, and blocks for players that feel like they have everything in the game, this is yet another milestone for you to reach. While these items are made very powerfull they are also very hard to get as you need 1 diamond block and 1 mese block for each ingot as well as some of these items than need not only OP Ingots but OP Blocks meaning you will need 9 more.
+This mod adds powerful endgame tools, armor, and blocks for players that feel like they have everything in the game, this is yet another milestone for you to reach. While these items are made very powerful they are also very hard to get as you need 1 diamond block and 1 mese block for each ingot as well as some of these items than need not only OP Ingots but OP Blocks meaning you will need 9 more.
 
 ### Crafting:
 
