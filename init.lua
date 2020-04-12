@@ -39,8 +39,8 @@ minetest.register_craft({
 minetest.register_craft({
                          output = "overpowered:untreatedingot 2",
                          recipe = {
-                                   {"default:meseblock", "default:diamondblock"},
-                                   {"default:diamondblock", "default:meseblock"},
+                                   {"default:mese", "default:diamondblock"},
+                                   {"default:diamondblock", "default:mese"},
                         }
                         })
 minetest.register_craft({
