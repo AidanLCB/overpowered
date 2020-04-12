@@ -68,7 +68,7 @@ minetest.register_craft({
 minetest.register_craft({
                          output = "overpowered:multitool",
                          recipe = {
-                                   {"overpowered:block", "overpowered:block", "overpowered:ingot"},
+                                   {"overpowered:block", "overpowered:block", "overpowered:block"},
                                    {"", "default:obsidian_shard", ""},
                                    {"", "default:obsidian_shard", ""},
                                    }
