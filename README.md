@@ -1,12 +1,4 @@
- If there's anything that the Minetest modding community seems to love,
-it's explosives.  More explosions, more destruction, better efficiency
-and better performance.
-
-This mod is the culmination of all explosive mods.  It adds a nuclear
-device to the game that's powerful enough to destroy the entire world,
-and kill all players instantly.  Intense radiation renders the world
-completely and permanently uninhabitable.  Terrain destruction is done
-extremely efficiently via the Anthropic Principle.
+This mod adds powerfull endgame tools, armor, and blocks for players that feel like they have everything in the game, this is yet another milestone for you to reach. While these items are made very powerfull they are also very hard to get as you need 1 diamond block and 1 mese block for each ingot as well as some of these items than need not only OP Ingots but OP Blocks meaning you will need 9 more.
 
 ### Crafting:
 
