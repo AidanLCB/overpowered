@@ -1,0 +1,9 @@
+# textdomain: overpowered
+
+OP Mining Multitool=
+OP Sword=
+OP Helmet of Water Breathing=
+OP Chestplate of Lightness=
+OP Leggings of Speed=
+OP Boots of Firewalking=
+OP Shield of the Immortals=
