@@ -164,14 +164,14 @@ minetest.register_tool("overpowered:sword", {
 --## Register armor crafting recipes if modpath 3d_armor exists ##
 if minetest.get_modpath("3d_armor") then
     minetest.register_craft({
-        output = "overpowered:helmet_op",
+        output = "overpowered:helmet",
         recipe = {
             {"overpowered:ingot", "overpowered:block", "overpowered:ingot"},
             {"overpowered:ingot", "", "overpowered:ingot"},
         }
     })
     minetest.register_craft({
-        output = "overpowered:chestplate_op",
+        output = "overpowered:chestplate",
         recipe = {
             {"overpowered:ingot", "", "overpowered:ingot"},
             {"overpowered:ingot", "overpowered:block", "overpowered:ingot"},
@@ -179,7 +179,7 @@ if minetest.get_modpath("3d_armor") then
         }
     })
     minetest.register_craft({
-        output = "overpowered:leggings_op",
+        output = "overpowered:leggings",
         recipe = {
             {"overpowered:ingot", "overpowered:ingot", "overpowered:ingot"},
             {"overpowered:ingot", "", "overpowered:ingot"},
@@ -187,14 +187,14 @@ if minetest.get_modpath("3d_armor") then
         }
     })
     minetest.register_craft({
-        output = "overpowered:boots_op",
+        output = "overpowered:boots",
         recipe = {
             {"overpowered:ingot", "", "overpowered:ingot"},
             {"overpowered:ingot", "", "overpowered:ingot"},
         }
     })
     --## Register armor values with API ##
-    armor:register_armor("overpowered:helmet_op", {
+    armor:register_armor("overpowered:helmet", {
         description = S("OP Helmet of Water Breathing"),
         inventory_image = "overpowered_inv_helmet.png",
         groups = {armor_head=1, armor_heal=7, armor_use=2, armor_fire=10,
@@ -205,7 +205,7 @@ if minetest.get_modpath("3d_armor") then
         sound = {breaks = "default_tool_breaks", gain = 2.0},
         wear = 0,
     })
-    armor:register_armor("overpowered:chestplate_op", {
+    armor:register_armor("overpowered:chestplate", {
         description = S("OP Chestplate of Lightness"),
         inventory_image = "overpowered_inv_chestplate.png",
         groups = {armor_torso=1, armor_heal=35, armor_use=2, armor_fire=10,
@@ -218,7 +218,7 @@ if minetest.get_modpath("3d_armor") then
         sound = {breaks = "default_tool_breaks", gain = 2.0},
         wear = 0,
     })
-    armor:register_armor("overpowered:leggings_op", {
+    armor:register_armor("overpowered:leggings", {
         description = S("OP Leggings of Speed"),
         inventory_image = "overpowered_inv_leggings.png",
         --For armor_heal values (actually just blockchance), we calculate the
@@ -234,7 +234,7 @@ if minetest.get_modpath("3d_armor") then
         sound = {breaks = "default_tool_breaks", gain = 2.0},
         wear = 0,
     })
-    armor:register_armor("overpowered:boots_op", {
+    armor:register_armor("overpowered:boots", {
         description = S("OP Boots of Firewalking"),
         inventory_image = "overpowered_inv_boots.png",
         groups = {armor_feet=1, armor_heal=7, armor_use=7, armor_fire=10},
@@ -246,16 +246,16 @@ if minetest.get_modpath("3d_armor") then
     })
 end
 if minetest.get_modpath("shields") then
-    minetest.register_craft({output = "overpowered:shield_op",
+    minetest.register_craft({output = "overpowered:shield",
         recipe = {
             {"overpowered:block", "overpowered:block", "overpowered:block"},
             {"overpowered:ingot", "default:obsidian_shard", "overpowered:ingot"},
             {"overpowered:block", "overpowered:block", "overpowered:block"},
         }
     })
-    armor:register_armor("overpowered:shield_op", {
+    armor:register_armor("overpowered:shield", {
         description = S("OP Shield of the Immortals"),
-        inventory_image = "shields_inv_shield_admin.png^[colorize:orange:200",
+        inventory_image = "shields_inv_shield_admin.png^[colorize:black:220",
         groups = {armor_shield=1000, armor_heal=504, armor_use=-1, armor_fire=100,
                   armor_water=1, physics_speed=1.3, not_in_creative_inventory=1},
         --Painstakingly forged from the hearts of 504 Diamonds and Mese,
