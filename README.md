@@ -10,8 +10,6 @@ This mod adds powerful endgame tools, armor, and blocks for players that feel li
 
 **Armor**: The OP Leggings and Boots are the same as the default layout with ingots, however in the OP Helmet there is an OP Alloy Block in the middle on the top row. The Chestplate has a OP Alloy Block in the very center.
 
-**Shield**: To make the OP Shield, you will need to fill the top and bottom crafting rows with OP Alloy Blocks, an Obsidian Shard goes in the center, and it is surrounded on the side by two OP Alloy Ingots. You've earned it.
-
 **Food**: Place 1 OP Ingot on either side of a normal apple to create 10 OP Apples, each restoring 20 HP (10 hearts) by default.
 
 **Material Cost Breakdown**:
@@ -24,5 +22,4 @@ This mod adds powerful endgame tools, armor, and blocks for players that feel li
     OP Boots = 36 Diamonds + 36 Mese Crystals
     OP Helmet = 117 Diamonds + 117 Mese Crystals
     OP Chestplate = 144 Diamonds + 144 Mese Crystals
-    OP Shield = 504 Diamonds, 504 Mese Crystals, 1 Obsidian Shard
     OP Apple = 1.8 Diamonds, 1.8 Mese Crystals, 1 Apple
