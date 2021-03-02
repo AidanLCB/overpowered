@@ -245,27 +245,3 @@ if minetest.get_modpath("3d_armor") then
         wear = 0,
     })
 end
-if minetest.get_modpath("shields") then
-    minetest.register_craft({output = "overpowered:shield",
-        recipe = {
-            {"overpowered:block", "overpowered:block", "overpowered:block"},
-            {"overpowered:ingot", "default:obsidian_shard", "overpowered:ingot"},
-            {"overpowered:block", "overpowered:block", "overpowered:block"},
-        }
-    })
-    armor:register_armor("overpowered:shield", {
-        description = S("OP Shield of the Immortals"),
-        inventory_image = "shields_inv_shield_admin.png^[colorize:black:220",
-        groups = {armor_shield=1000, armor_heal=504, armor_use=-1, armor_fire=100,
-                  armor_water=1, physics_speed=1.3, not_in_creative_inventory=1},
-        --Painstakingly forged from the hearts of 504 Diamonds and Mese,
-        --this shield will never fail you.
-        --Modeled after a modified Greek Aspis.
-        armor_groups = {immortal},
-        reciprocate_damage = true,
-        --damage_groups = {crumbly=10, cracky=10, snappy=10, choppy=10, level=10},
-        on_damage = function(player, index, stack) play_sound_effect(player, "default_glass_footstep")
-        end,
-        wear = 0,
-    })
-end
