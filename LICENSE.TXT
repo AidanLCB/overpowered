@@ -23,3 +23,5 @@ default_apple.png -> overpowered_apple.png
 
 Armor Textures: Copyright (C) 2017-2018 davidthecreator - CC-BY-SA 3.0
 
+Shield Model and Texture: Copyright (C) 2021 GetMeSumADat, u/PseudoSecuritay (CC BY-SA 3.0)
+>Overhauled code & added features.
